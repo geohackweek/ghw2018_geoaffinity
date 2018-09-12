@@ -32,7 +32,7 @@ There are two types of data we will utilize.
 Similar questions could be answered by using software such as QGIS to compare different sectors. This process, however, isn't generalizable and has a steep learning curve, limiting the accessibility of the tool.
 
 ## Proposed Methods/Tools
-The usage of the Rodriguez Trasformation in order to standardize
+The usage of the Rodriguez Transformation in order to standardize
 GDal, geoplot, python (some statistical libraries), APIs
 
 ## Background Reading
