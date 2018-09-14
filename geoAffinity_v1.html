@@ -1,0 +1,49 @@
+<!--
+GeoAffinity Web Application
+-uses Google maps API link two or more "sectors" based on similarities/differences
+-for now, just a static Google Maps Display
+-Developed by Michael Patrick, Ryan Bald, Nathaniel Aune
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--title of the webpage -->
+    <title>GeoAffinity</title>
+
+    <!--CSS (styling) of the webpage-->
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; background-color: gray; }
+      .container { height: 100%; width: 100%; display: flex;}
+      .header {text-align: center;}
+      .subtitle {font-style: italic;}
+      .map {width: 47%; border: 3px solid green;}
+
+    </style>
+    <script type='text/javascript' src='config.js'>
+    </script>
+    <script type="text/javascript", src="map.js">
+    </script>
+
+  </head>
+
+  <body>
+    <!--displayed title div-->
+    <div class="header">
+      <h1 class="name">GeoAffinity</h1>
+      <p class="subtitle">Faciliating geospatial familiarity between the remote and the familiar.</p>
+    </div>
+    <div class="container">
+      <!--where the maps are displayed-->
+      <div id="map1", class="map">
+      </div>
+      <div id="map2", class="map">
+      </div>
+    </div>
+    <!-- note: the key is currently unrestricted -->
+    <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=MY_KEY&callback=initMap">
+    </script> -->
+
+
+  </body>
+</html>
