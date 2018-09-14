@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20180913</CreaDate><CreaTime>12532800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToPolygon" Date="20180913" Time="125328">RasterToPolygon ESA2015campsectorZero.tif D:\Projects\GeoHackWeek\GIS\GeoHackData\ShapeFile\CampSector\CampSector2.shp SIMPLIFY Value</Process></lineage></DataProperties></Esri></metadata>
